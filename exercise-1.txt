@@ -1,0 +1,91 @@
+1. Hukum Newton 2
+
+//Pseudocode
+STORE "m" with 600
+STORE "a" with 2
+STORE "F"
+
+CALCULATE with F = m * a
+RESULT F = 1200
+
+DISPLAY value of F
+
+
+
+2. Tahun Kabisat
+
+2. Tahun Kabisat
+
+//Pseudocode
+STORE 'year' with any value
+
+IF (year % 4  EQUAL 0) THEN
+    IF (year % 100 EQUAL 0) THEN
+        IF (year % 400 EQUAL 0)
+            DISPLAY 'this year is tahun kabisat'
+        ELSE
+            DISPLAY 'this year is not tahun kabisat'
+        ENDIF
+    ELSE
+        DISPLAY 'this year is tahun kabisat.
+    ENDIF
+ELSE
+    DISPLAY this year is not tahun Kabisat
+ENDIF
+
+//Algoritma
+1. Simpan nilai year dengan nilai apapun
+2. Jika year tidak habis dibagi 4, maka langsung ke step nomor 6. 
+    Dan jika kondisi year habis dibagi 4, maka lanjut ke step nomor 3.
+3. Jika year habis dibagi 100, maka lanjut ke step nomor 4. 
+    Dan jika kondisi year tidak habis dibagi 100, maka langsung ke step nomor 5. 
+4. Jika year tidak habis dibagi 400 maka langsung ke nomor 6. 
+    Dan Jika kondisi year habis dibagi 400, maka lanjut ke step nomor 5.
+5. Menunjukkan bahwa year tersebut merupakan tahun kabisat.
+6. Menunjukkan bahwa year tersebut bukan merupakan tahun kabisat.
+
+
+3. Laundry DISPLAY
+
+//Pseudocode
+STORE "clothes" to 0
+
+WHILE clothes < 20
+    SET 'clothes' with 'clothes' + 1
+    DISPLAY 'clothes'
+ENDWHILE
+DISPLAY 'Laundry On'
+
+
+//Algoritma
+1. Simpan clothes sebagai variabel dengan nilai 0
+2. Ketika kondisi clothes < 20 lanjut ke step nomor 2.a.
+    Jika tidak langsung ke step nomor 3
+    2.a melakukan Penambahan 1 clothes
+    2.b menampilkan jumlah clothes
+    2.c Kembali ke step nomor 2. dan evaluasi looping kembali
+3. Display 'Laundry On'
+
+
+
+4. Periksa Kuku
+
+//Pseudocode
+
+STORE "Students" to 0
+WHILE (Students < 40)
+    IF "kuku Student" = "panjang" THEN
+        DISPLAY "hukum"
+    ELSE
+        DISPLAY "puji"
+    END IF
+ENDWHILE
+
+//Algoritma
+1. Simpan Students sebagai variabel dengan nilai 0
+2. Ketika kondisi Students < 40 lanjut ke step nomor 2.a.
+    Jika tidak lanjut ke step nomor X
+    2.a. Jika 'kuku Student' = panjang maka lanjut ke step 2.b Jika tidak langsung ke step 2.c
+    2.b  Menunjukkan Student akan dihukum
+    2.c Student mendapat pujian
+3. Kembali ke step no 2 dan evaluasi looping kembali
